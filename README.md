@@ -22,4 +22,4 @@ Then install node version 14.16.0
 
 ## Run on Headless
 
-`pnpm cy-console`
+`pnpm cy-cons`
