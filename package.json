@@ -4,7 +4,8 @@
   "description": "ui test",
   "main": "index.js",
   "scripts": {
-    "cy-open": "cypress open"
+    "cy-open": "cypress open",
+    "cy-cons": "cypress run"
   },
   "repository": {
     "type": "git",
