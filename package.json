@@ -1,0 +1,28 @@
+{
+  "name": "web-youtap",
+  "version": "1.0.0",
+  "description": "ui test",
+  "main": "index.js",
+  "scripts": {
+    "cy-open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modalqa/web-youtap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/modalqa/web-youtap/issues"
+  },
+  "homepage": "https://github.com/modalqa/web-youtap#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  },
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  }
+}
